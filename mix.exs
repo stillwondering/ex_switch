@@ -22,7 +22,8 @@ defmodule ExSwitch.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:finch, "~> 0.19"}
+      {:finch, "~> 0.19"},
+      {:bypass, "~> 2.1", only: :test}
     ]
   end
 end
